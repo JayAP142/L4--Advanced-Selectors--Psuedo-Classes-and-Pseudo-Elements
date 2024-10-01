@@ -1,0 +1,24 @@
+input[type="text"]{
+    border: 3px solid red;
+}
+input[type="number"]{
+    background-color: aqua;
+}
+ol > li{
+    color: blue;
+}
+li:nth-child(3){
+    color: brown;
+}
+h2 + p{
+    text-align: right;
+}
+h2:hover{
+    color: goldenrod;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: smaller;
+    text-decoration: line-through;
+}
+p::first-letter{
+    font-size: 90px;
+}
