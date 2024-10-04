@@ -1,0 +1,29 @@
+*{
+    background-color: bisque;
+font-size: large;
+}
+.h{
+    font-size: xx-large;
+    color: blueviolet;
+    text-decoration: wavy underline;
+}
+ol > li{
+    text-shadow: 3px 5px 20px gold;
+    text-decoration: double underline;
+}
+h1 + p{
+    font-style: oblique;
+    font-variant: small-caps;
+}
+h1:hover{
+    color: coral;
+    text-shadow: 3px 4px 20px hotpink
+}
+h1{
+    text-align: center;
+}
+p::first-letter{
+    font-size: xxx-large;
+    line-height: 0.7;
+    float: inline-start;
+}
